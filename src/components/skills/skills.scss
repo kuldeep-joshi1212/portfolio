@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap:3rem;
+
+    .section{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        height: calc((100vh - 250px)/2);
+        width: 40vw;
+        margin: 10px;
+        //border-top: 1px solid #b9b9b9;
+        border-radius: 10px;
+        gap: 2rem;
+
+        .skill{
+            span{
+                display: none;
+            }
+            object{
+                display: block;
+                margin: auto;
+            }
+        }
+        .skill:hover{
+            span{
+                display: block;
+                color: grey;
+                text-align: center;
+
+            }
+        }
+        i{
+            font-size: 10rem;
+        }
+        object{
+            height: 8rem;
+            margin: 1rem 0;
+            width: auto;
+        }
+    }
+}
+.heading{
+    height: 50px;
+    width: 100%;
+    //margin: 20px;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill{
+    height: 10rem;
+    width: 10rem;
+    margin: .5rem 1.5rem;
+
+}
+
+
+
+@media (max-width: 1600px) {
+    .skills{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+
+        .section{
+            grid-template-columns: repeat(5,1fr);
+            width: 100vw;
+            height: 15vh;
+            gap: 0;
+            .skill{
+                width: 5rem;
+                height: 5rem;
+                //background-color: aquamarine;
+                i{
+                    font-size: 5rem;
+                }
+                object{
+                    height: 4rem;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .skills{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        height: 60vh;
+        //width: 50vw;
+        .section{
+            grid-template-columns: repeat(5,1fr);
+            width: 100vw;
+            gap:0;
+            .skill{
+                width: 5rem;
+                height: 5rem;
+                //background-color: aquamarine;
+                i{
+                    font-size: 5rem;
+                }
+                object{
+                    height: 4rem;
+
+                }
+            }
+        }
+        }
+}
+
+
+

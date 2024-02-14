@@ -1,0 +1,12 @@
+.contact {
+  height: 85vh;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+li {
+  display: block;
+}
+
+/*# sourceMappingURL=contact.css.map */

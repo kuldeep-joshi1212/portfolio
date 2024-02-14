@@ -1,0 +1,15 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align:center;
+    
+    // width: 100vw;
+}
+.background{
+    position: absolute;
+    z-index: -1;
+}
