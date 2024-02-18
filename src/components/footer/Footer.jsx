@@ -41,6 +41,9 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
+            <div className="footer-note">
+                <div>Kuldeep Joshi</div>
+            </div>
         </footer>
     </>
   )

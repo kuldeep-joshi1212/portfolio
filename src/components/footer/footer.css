@@ -8,13 +8,12 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  height: 100%;
 }
 .socials ul {
   text-decoration: none;
 }
 .socials ul li {
-  height: 100%;
+  display: block;
 }
 
 .social {
@@ -23,6 +22,14 @@
   padding: 2rem;
   display: table-cell;
   vertical-align: middle;
+}
+
+.footer-note {
+  display: flex;
+  justify-content: center;
+}
+.footer-note div {
+  color: white;
 }
 
 /*# sourceMappingURL=footer.css.map */

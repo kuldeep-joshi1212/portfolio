@@ -16,7 +16,7 @@ function Background(){
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);
   };
 
   const options = useMemo(
