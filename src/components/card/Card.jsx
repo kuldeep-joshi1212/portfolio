@@ -8,7 +8,7 @@ const Card = (props) => {
         for(let i=1;i<props.project["tech"].length;i++){
             techList+=", "+props.project["tech"][i];
         }
-        // console.log(techList);
+        console.log(techList);
 
 
 

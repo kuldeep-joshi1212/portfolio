@@ -50,33 +50,33 @@ function Skills(){
                         <span>AWS</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/postman.svg" type='image/svg+xml'></object>
+                        <object data="./assets/postman.svg" ></object>
                         <span>Postman</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/jmeter.svg" type='image/svg+xml'></object>
+                        <object data="./assets/jmeter.svg" ></object>
                         <span>JMeter</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/docker.svg" type='image/svg+xml'></object>
+                        <object data="./assets/docker.svg" ></object>
                         <span>Docker</span>
                     </div>
                 </div>
                 <div className="other section">
                     <div className="skill">
-                        <object data="./assets/dsa.svg" type='image/svg+xml'></object>
+                        <object data="./assets/dsa.svg" ></object>
                         <span>DSA</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/design.svg" type='image/svg+xml'></object>
+                        <object data="./assets/design.svg" ></object>
                         <span>Design Patterns</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/micro.svg" type='image/svg+xml'></object>
+                        <object data="./assets/micro.svg" ></object>
                         <span>Micro-Services</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/rest.svg" type='image/svg+xml'></object>
+                        <object data="./assets/rest.svg" ></object>
                         <span>Rest APIs</span>
                     </div>
 
