@@ -23,7 +23,7 @@ const Contact = () => {
                 }
             });
             input.addEventListener("blur", () => {
-                console.log(input.value);
+
                 let span = item.querySelector("span");
                 if (span && !input.value) {
                     span.style.display = "block";

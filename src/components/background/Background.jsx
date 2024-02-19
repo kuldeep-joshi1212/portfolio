@@ -30,7 +30,7 @@ function Background(){
             value: "#fff",
           },
         },
-        fpsLimit: 120,
+        fpsLimit: 24,
         interactivity: {
           events: {
             onHover: {

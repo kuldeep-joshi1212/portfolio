@@ -1,20 +1,50 @@
 .card {
   display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
   height: 100%;
   width: 90%;
   border: 2px black solid;
   border-radius: 10px;
   margin: 0 4%;
 }
+.card div {
+  font-size: larger;
+}
+.card div a {
+  text-decoration: none;
+}
+.card div.project {
+  height: 10%;
+  font-size: larger;
+}
+.card div.description {
+  font-size: small;
+  height: 50%;
+  margin: 2.5% 0;
+}
+.card div.tech {
+  height: 25%;
+  font-size: small;
+}
+
+.link {
+  position: absolute;
+  display: block;
+}
+.link a {
+  text-decoration: none;
+}
+.link a i {
+  font-size: 10rem;
+  color: yellow;
+}
 
 .card:hover {
-  background-color: black;
-}
-.card:hover span {
-  color: white;
-}
-.card:hover a i {
-  color: white;
+  scale: 1.05;
+  animation-duration: 1s;
+  border: 1px solid black;
 }
 
 .project {

@@ -1,0 +1,26 @@
+{
+  "p1": {
+    "name": "food delivery website",
+    "link": "https://github.com/kuldeep-joshi1212/zaika-food-delivery",
+    "descripton": "",
+    "tech": ["Java", "Spring Boot", "Spring JPA", "Gradle", "React", "PostgreSQL", "Postman", "JMeter"]
+  },
+  "p2": {
+    "name": "forum website backend",
+    "link": "https://github.com/kuldeep-joshi1212/RedditFullstack",
+    "descripton": "",
+    "tech": ["Java", "Spring Boot", "Spring JPA", "Angular", "PostgreSQL", "Postman", "JMeter"]
+  },
+  "p3": {
+    "name": "Kanban Board",
+    "link": "https://github.com/kuldeep-joshi1212/Kanban-Board",
+    "descripton": "",
+    "tech": ["HTML","CSS","Javascript"]
+  },
+  "p4": {
+    "name": "Bank portal",
+    "link": "https://github.com/kuldeep-joshi1212/Bank",
+    "descripton": "",
+    "tech": ["Java", "Spring Boot", "AWS","HTML","CSS", "PostgreSQL"]
+  }
+}
