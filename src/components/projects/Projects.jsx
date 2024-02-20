@@ -2,7 +2,9 @@ import "./projects.scss"
 import Card from "../card/Card";
 import {useEffect, useState} from "react";
 const Projects =   () => {
-    const [listProjects , setListProjects] = useState([]);
+    const [listProjects , setListProjects] = useState(()=>{
+        return [];
+    });
     let json;
     useEffect(() => {
         const fun= async ()=>{
@@ -11,6 +13,9 @@ const Projects =   () => {
 
             // console.log(json);
             setListProjects(Object.values(json));
+            return ()=>{
+                console.log("cleanup");
+            }
         }
        fun();
 

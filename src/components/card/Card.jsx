@@ -1,7 +1,5 @@
 import styles from "./card.module.scss"
-import {useState} from "react";
 const Card = (props) => {
-    const[data, setData] = useState([]);
 
         let techList=props.project.tech[0];
         // console.log(techList)
@@ -9,9 +7,6 @@ const Card = (props) => {
             techList+=", "+props.project["tech"][i];
         }
         console.log(techList);
-
-
-
 
     return(
         <>
@@ -23,9 +18,6 @@ const Card = (props) => {
                     <div className={styles.tech}>
                         <div className="tech-list">
                             {`Tech used: ${techList}`}
-                            {/*{props.project.tech.map((tech, i) => {*/}
-                            {/*    return <span>{tech} ,</span>*/}
-                            {/*})}*/}
                         </div>
                     </div>
                 </div>
