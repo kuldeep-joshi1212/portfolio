@@ -1,4 +1,11 @@
 import "./skills.scss";
+import design from "./svg/design.svg"
+import docker from "./svg/docker.svg"
+import DSA from "./svg/DSA.svg"
+import jmeter from "./svg/jmeter.svg"
+import micro from "./svg/micro.svg"
+import postman from "./svg/postman.svg"
+import rest from "./svg/rest.svg"
 
 function Skills(){
     return (<>
@@ -50,33 +57,33 @@ function Skills(){
                         <span>AWS</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/postman.svg" ></object>
+                        <img src={postman} alt={postman} />
                         <span>Postman</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/jmeter.svg" ></object>
+                        <img src={jmeter} alt={jmeter} />
                         <span>JMeter</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/docker.svg" ></object>
+                        <img src={docker} alt={docker} />
                         <span>Docker</span>
                     </div>
                 </div>
                 <div className="other section">
                     <div className="skill">
-                        <object data="./assets/dsa.svg" ></object>
+                        <img sec={DSA} alt={DSA} />
                         <span>DSA</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/design.svg" ></object>
+                        <img src={design} alt={design} />
                         <span>Design Patterns</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/micro.svg" ></object>
+                        <img src ={micro} alt={micro} />
                         <span>Micro-Services</span>
                     </div>
                     <div className="skill">
-                        <object data="./assets/rest.svg" ></object>
+                        <img src={rest} alt={rest} />
                         <span>Rest APIs</span>
                     </div>
 
