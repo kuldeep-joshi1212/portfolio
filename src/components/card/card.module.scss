@@ -13,11 +13,21 @@
     font-size: larger;
     a{
       text-decoration: none;
+      color: black;
+    }
+  }
+  div:hover{
+    a{
+      i{
+        transform: scale(1.2);
+      }
     }
   }
   div.project{
     height: 10%;
     font-size: larger;
+    margin-top: 1%;
+    margin-left: 1%;
   }
   div.description{
     font-size: small;

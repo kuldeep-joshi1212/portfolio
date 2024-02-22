@@ -32,7 +32,6 @@ function Skills(){
                     </div>
                 </div>
                 <div className="frameworks section">
-
                 <div className="skill">
                     <i className='bx bxl-spring-boot'></i>
                     <span>Spring</span>
@@ -44,6 +43,9 @@ function Skills(){
                     <div className="skill">
                         <i className='bx bxl-postgresql'></i>
                         <span>PostgreSQL</span>
+                    </div>
+                    <div className="title">
+                        Frameworks
                     </div>
 
                 </div>
@@ -70,8 +72,9 @@ function Skills(){
                     </div>
                 </div>
                 <div className="other section">
+
                     <div className="skill">
-                        <img sec={DSA} alt={DSA} />
+                        <img src={DSA} alt={DSA} />
                         <span>DSA</span>
                     </div>
                     <div className="skill">

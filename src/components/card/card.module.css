@@ -14,10 +14,16 @@
 }
 .card div a {
   text-decoration: none;
+  color: black;
+}
+.card div:hover a i {
+  transform: scale(1.2);
 }
 .card div.project {
   height: 10%;
   font-size: larger;
+  margin-top: 1%;
+  margin-left: 1%;
 }
 .card div.description {
   font-size: small;

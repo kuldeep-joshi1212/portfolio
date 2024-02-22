@@ -21,7 +21,7 @@ function Background(){
     // console.log(container);
   };
 
-  let options={
+  const options={
     fullscreen:{
       enable:true,
       zIndex:-10

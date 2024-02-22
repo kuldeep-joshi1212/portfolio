@@ -30,7 +30,7 @@ const Projects =   () => {
               {
                     // console.log(typeof json)
                     listProjects.map((project,id) =>{
-                      return <div><Card project={project} key={id} /></div>
+                      return <div className="project-card"><Card project={project} key={id} /></div>
                   })
               }
 

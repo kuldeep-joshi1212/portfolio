@@ -1,12 +1,12 @@
 {
   "p1": {
-    "name": "food delivery website",
+    "name": "Food Delivery Website",
     "link": "https://github.com/kuldeep-joshi1212/zaika-food-delivery",
     "descripton": "",
     "tech": ["Java", "Spring Boot", "Spring JPA", "Gradle", "React", "PostgreSQL", "Postman", "JMeter"]
   },
   "p2": {
-    "name": "forum website backend",
+    "name": "Forum Website Backend",
     "link": "https://github.com/kuldeep-joshi1212/RedditFullstack",
     "descripton": "",
     "tech": ["Java", "Spring Boot", "Spring JPA", "Angular", "PostgreSQL", "Postman", "JMeter"]
@@ -18,7 +18,7 @@
     "tech": ["HTML","CSS","Javascript"]
   },
   "p4": {
-    "name": "Bank portal",
+    "name": "Bank Portal",
     "link": "https://github.com/kuldeep-joshi1212/Bank",
     "descripton": "",
     "tech": ["Java", "Spring Boot", "AWS","HTML","CSS", "PostgreSQL"]

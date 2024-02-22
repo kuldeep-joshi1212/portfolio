@@ -5,10 +5,13 @@
     font-family: "Poppins", sans-serif;
 }
 .skills{
+    position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
     gap:3rem;
+    height: calc(100vh - 10rem);
+
 
     .section{
         display: grid;
@@ -38,33 +41,34 @@
             }
         }
         i{
-            font-size: 10rem;
+            font-size: 8rem;
         }
         img{
-            height: 8rem;
+            height: 7rem;
             margin: 1rem 0;
             width: auto;
         }
+    }
+    .title{
+        position: absolute;
+        bottom: 0;
     }
 }
 .heading{
     height: 50px;
     width: 100%;
-    //margin: 20px;
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;;
-    display: table-cell;
-    //align-items: center;
-    //justify-content: center;
-    vertical-align: middle;
     text-align: center;
 }
 .skill{
     height: 10rem;
     width: 10rem;
     margin: .5rem 1.5rem;
+    text-align: center;
 
 }
+
 
 
 
@@ -85,9 +89,12 @@
                 i{
                     font-size: 5rem;
                 }
-                object{
+                img{
                     height: 4rem;
 
+                }
+                span{
+                    display: block;
                 }
             }
         }
@@ -111,7 +118,7 @@
                 i{
                     font-size: 5rem;
                 }
-                object{
+                img{
                     height: 4rem;
 
                 }
