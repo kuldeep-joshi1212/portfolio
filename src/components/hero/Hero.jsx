@@ -1,31 +1,22 @@
 import "./hero.scss";
 import Header from "../header/Header";
-import React from "react";
+import React, {useEffect, useRef} from "react";
 import { animate, motion } from "framer-motion";
-import Sidebar from "../sidebar/Sidebar.jsx";
+import {init} from "ityped";
 
 const Hero = () => {
-  const variants = {
-    initial: {
-      x: 100,
-    },
-    animate: {
-      x: -100,
-      transition: {
-        repeat: Infinity,
-        repeatType: "mirror",
-        duration: 10,
-      },
-    },
-  };
+  const textRef = useRef();
+
+  useEffect(() => {
+    init(textRef.current, { backDelay: 1000 ,showCursor: true, strings: ['Competitive Programming', 'Web Development', 'Mobile Development']});
+  }, [])
   return (
     <>
       <Header />
-      {/* <Sidebar /> */}
       <div className="hero">
         <div className="text-cnt">
           <h2>Kuldeep Joshi</h2>
-          <h1>FullStack Developer</h1>
+          <span className="sub-head">Enthusiastic about <span className="list-skill" ref={textRef}></span></span>
           <div className="buttons">
             <a href="./assets/resume.pdf" download="resume.pdf">
               <button>Download CV</button>

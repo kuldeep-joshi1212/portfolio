@@ -6,20 +6,14 @@ const Projects =   () => {
         return [];
     });
     let json;
-    useEffect(() => {
-        const fun= async ()=>{
+    useEffect(async () => {
             json=await fetch("./assets/projects.json");
             json=await json.json();
-
-            // console.log(json);
             setListProjects(Object.values(json));
             return ()=>{
                 console.log("cleanup");
             }
-        }
-       fun();
-
-    },[])
+    },[]);
 
 
 

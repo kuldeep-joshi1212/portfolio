@@ -13,7 +13,7 @@
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   letter-spacing: 5px;
 }
 
@@ -25,22 +25,43 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-content: flex-start;
   gap: 1rem;
+  width: 40%;
 }
 
 button {
   border: solid 1px black;
   border-radius: 5px;
   margin-right: 2rem;
-  height: 2rem;
-  width: 8rem;
+  height: 3rem;
+  width: 10rem;
 }
 
 button:hover {
   background-color: black;
   color: white;
   cursor: pointer;
+}
+
+.sub-head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: darkgray;
+  font-size: 2rem;
+}
+
+.list-skill {
+  display: inline;
+  font-size: 2rem;
+  color: black;
+}
+
+.ityped-cursor {
+  display: inline;
+  color: black;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
