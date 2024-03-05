@@ -44,9 +44,6 @@ function Skills(){
                         <i className='bx bxl-postgresql'></i>
                         <span>PostgreSQL</span>
                     </div>
-                    <div className="title">
-                        Frameworks
-                    </div>
 
                 </div>
                 <div className="tools section">
